@@ -3,7 +3,7 @@ This repository is for learning and practicing HTML.
 I'm using it to understand the basics of web development.
 
 ## What's inside
-Simple HTML files
+Simple HTML files.
 Emperiments with tags, elements and structure.
 
 ## How to use
