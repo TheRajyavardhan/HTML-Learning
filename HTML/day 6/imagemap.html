@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image map</title>
+</head>
+
+<body>
+    <!-- The HTML <map> tag defines an image map.
+         An image map is an image with clickable areas.
+         The areas are defined with one or more <area> tags.  -->
+
+    <img src="https://external-preview.redd.it/W_gJSAxqNSe6rSO0juk2RFTHygDQs5bj6E2du8WwEXs.jpg?auto=webp&s=813580b10934024b339ee587652fec7908305dbb"
+        alt="Nepolean's quote" usemap="#nepolean">
+
+    <map name="nepolean">
+        <area shape="poly"
+            coords="4,502,538,502,537,484,492,430,445,369,397,312,374,293,397,286,384,274,353,260,311,237,290,224,293,194,292,156,292,136,272,108,251,87,216,77,185,85,163,112,144,133,60,288,33,363,1,420"
+            href="nepoleanwiki.html" alt="Nepolean wiki" onclick="myFunction()">
+    </map>
+    <script>
+        function myFunction() {
+            alert("You dare to click nepolean wiki !");
+        }
+    </script>
+</body>
+
+</html>
